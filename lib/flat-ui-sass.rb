@@ -67,6 +67,7 @@ module FlatUI
     end
 
     def pro?
+      return false
       Dir.exist? File.join(project_path, 'vendor/assets/stylesheets/flat-ui-pro')
     end
 
